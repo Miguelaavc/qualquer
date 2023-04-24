@@ -48,7 +48,6 @@ while True:
 
     elif op == 6:
         cont = 1
-        print("teste apaga ai dps")
         print("## RELATÓRIO GERAL ##")
         print(f"\nQuantidade de contas: {len(geral)}")
         for i in geral:
@@ -60,4 +59,5 @@ while True:
         print("Programa Encerrado !!!")
         break
     
-#alteração massa
+    #adrrgheg
+    #adgubaegbgujgu
