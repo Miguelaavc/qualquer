@@ -3,7 +3,7 @@ A) Quantas pessoas foram cadastradas
 B) A média de idade
 C) Uma lista com as mulheres
 D) Uma lista de pessoas com idade acima da média'''
-dados = {}
+'''dados = {}
 galera = []
 while True:
     dados.clear()
@@ -26,4 +26,5 @@ while True:
         break
 print(galera)
 #[{'nome': 'miguel', 'sexo': 'M', 'idade': 16}, {'nome': 'ingrid', 'sexo': 'F', 'idade': 23}]
-print(f"Temos {len(galera)} pessoas cadastradas.")
+print(f"Temos {len(galera)} pessoas cadastradas.")'''
+print(41394%16)
