@@ -4,16 +4,18 @@ cont = ""
 regis = ""
 num = 13298755
 while True:
-    print("================================")
+    print("========================================")
     print(f"Número: {num}")
     regis = str(input("Registrado: ")).upper()
     print("Carregando...")
-    sleep (randint(1,4))
+    sleep (randint(1,2))
     print("Registrando...")
-    sleep (randint(1,4))
+    sleep (randint(1,2))
     print('''   
-        Tudo certo.
-        Boa Palestra !!!
+    ---------------------------
+        TUDO CERTO.
+        BOA PALESTRA !!!
+    ---------------------------
     ''')
     cont = str(input("Continuar ?(S|N)")).upper()
     print('''
