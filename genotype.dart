@@ -24,19 +24,22 @@ class Genotype {
   }   
   
 
-  String? get bloodType {
-    if (["AA", "Ai"].contains(_genotype)) {
-      return "A";
-    } else if (["BB", "Bi"].contains(_genotype)) {
-      return "B";
+  String get bloodType {
+    
+    String g = "";
+    if (_genotype == 'Ai' || _genotype == 'AA') {
+      g = "A";
+    } else if (_genotype == "BB" || _genotype == "Bi") {
+      g = "B";
     } else if (_genotype == "ii") {
-      return "O";
+      g = "O";
     } else if (_genotype == "AB") {
-      return "AB";
+      g = "AB";
     }
+    return g;
   }
 
-  List<String> get alelles {
+  List<String> get alleles {
     List<String> lista = [];
     if (!["AA", "BB", "ii"].contains(_genotype)) {
       for (int i = 0; i < _genotype.length; i++) {
@@ -92,8 +95,8 @@ class Genotype {
               offspringSet.add(um);
             } 
           }
-          return offspringSet;
-        }
+        } 
+        return offspringSet;
   }
 
   bool compatible(Genotype genotypex) {
